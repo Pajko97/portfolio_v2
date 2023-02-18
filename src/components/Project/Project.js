@@ -20,7 +20,7 @@ export default function Position( props ) {
     <div className={styles.position}>
       <div className={styles.company_information}>
         <div className={styles.company_basic_info}>
-          <h2 className={styles.company_position}><Image src={logoSrc} height={100} width={200}/></h2>
+          <h2 className={styles.company_position}><Image alt={`${name} logo`} src={logoSrc} height={100} width={200}/></h2>
         </div>
         <p className={styles.company_description}>
           {description}

@@ -41,7 +41,7 @@ export default function apps() {
     <div className={styles.wrapper}>
       <Head>
         <title>Recent Projects</title>
-        <meta name="description" content="Previous working experience" />
+        <meta name="description" content="Projects i am working on" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

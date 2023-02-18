@@ -31,7 +31,7 @@ export default function about() {
             <p>25 years old programmer and entrepreneur in progress :) When im not programming and developing my business ideas, i like to spend time with my family, girl and friends. Did not do so well in school, finished high school and instead of going to college went on my way to learn programming. I was into technology from an early age. Got my first PC at the age of 7 and that is when i fell in love pretty much. At a younger age i used to not be that much intereseted in the computer realm, but more so mobile devices. When i was like 14-15 i used to flash CM 7 and similar custom ROM’s and broke couple of phones in the process. There was also a phase with the computer hardware which lasted couple of years, when i wanted to start my custom PC build company where anybody could get builds for their specific needs. Life happens and we leave our dreams to wait in exchange for short term goals.</p>
           </div>
         </div>
-        <Image width={400} height={677} src="/assets/profile_photo.png"/>
+        <Image alt="picture of myself" width={400} height={677} src="/assets/profile_photo.png"/>
       </div>
   </div>
   )

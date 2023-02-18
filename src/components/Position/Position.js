@@ -33,9 +33,9 @@ export default function Position( props ) {
       <div className={styles.resp_and_tech}>
        <div className={styles.resp}>
        <h2>Responsibilities</h2>
-         {responsibilities.map((res) => {
+         {responsibilities.map((res, i) => {
           return(
-            <li>{res}</li>
+            <li key={i} >{res}</li>
           )
           })} 
        </div>
@@ -43,10 +43,10 @@ export default function Position( props ) {
        <div className={styles.tech}>
          <h2>Technologies/Frameworks</h2>
          <div className={styles.tech_container}>
-           {tech.map((tec) => {
+           {tech.map((tec, i) => {
             return(
-              <div className={styles.tech_single}>
-                <Image src={`/assets/technologies/${tec}_logo.svg`} height={40} width={40}/>
+              <div key={i} className={styles.tech_single}>
+                <Image alt={`${tec} logo`} src={`/assets/technologies/${tec}_logo.svg`} height={40} width={40}/>
               </div>
             )
            })}

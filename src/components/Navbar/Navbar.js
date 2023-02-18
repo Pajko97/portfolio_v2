@@ -19,19 +19,19 @@ export default function Navbar() {
         <Link href="/apps">My apps</Link>
       </div>
 
-      <Link href="/"><Image src="/assets/logo_pj.svg" height={70} width={70} /></Link>
+      <Link href="/"><Image alt="PJ logo" src="/assets/logo_pj.svg" height={70} width={70} /></Link>
       
       <div className={styles.section_right}>
         <div className={styles.social}>
         
-        <Link href="https://www.linkedin.com/in/pavlejanjusevic/"><Image src="/assets/linkedin_logo.png" height={30} width={30} /></Link>        
-        <Link href="https://github.com/Pajko97"><Image src="/assets/github_logo.png" height={30} width={30} /></Link>        
-          <Link href="https://discord.com/users/Pablito#1705"><Image src="/assets/discord_logo.png" height={30} width={30} /></Link>        
+        <Link href="https://www.linkedin.com/in/pavlejanjusevic/"><Image alt="linkedin logo" src="/assets/linkedin_logo.png" height={30} width={30} /></Link>        
+        <Link href="https://github.com/Pajko97"><Image alt="github logo" src="/assets/github_logo.png" height={30} width={30} /></Link>        
+          <Link href="https://discord.com/users/Pablito#1705"><Image alt="discord logo" src="/assets/discord_logo.png" height={30} width={30} /></Link>        
         </div>
         
         <div onClick={() => setIsNavOpen(!isNavOpen)} className={styles.menu_icon}>
           <p className={styles.menu_icon_label}>Menu</p>
-          <Image src="/assets/menu_icon.svg" height={20} width={20} />
+          <Image alt="menu icon" src="/assets/menu_icon.svg" height={20} width={20} />
         </div>
       </div>
     </nav>

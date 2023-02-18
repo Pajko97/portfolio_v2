@@ -1,0 +1,22 @@
+
+.wrapper {
+  padding: var(--padding-page);
+  font-family: 'Roboto Flex';
+  color:white;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  margin-top:5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .wrapper {
+    padding: 2rem 3rem;
+  }
+}
+

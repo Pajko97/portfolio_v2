@@ -1,0 +1,28 @@
+
+.main {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top:20vh;
+}
+
+.wrapper {
+  padding: var(--padding-page);
+  font-family: 'Roboto Flex';
+  color:white;
+  height: 100vh;
+}
+
+.main h1 {
+  font-size: 128px;
+  font-weight: 200;
+}
+
+.main h2 {
+  font-size: 64px;
+  font-weight: 100;
+  font-family: 'Roboto Flex';
+  margin-top:-2.5rem;
+}

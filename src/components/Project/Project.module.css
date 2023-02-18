@@ -1,0 +1,68 @@
+.position {
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto Flex';
+  margin-bottom: 10rem;
+}
+
+.separator {
+  width:1px;
+  background-color: white;
+  margin:0 5rem;
+}
+
+.company_information {
+  max-width: 30rem;
+  text-align: right;
+}
+
+.company_position {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.company_name {
+  font-size:1.5rem;
+}
+
+.company_industry {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+
+
+.tech_container {
+  display: flex;
+}
+
+.tech_single {
+  padding:15px;
+}
+
+.resp h2, .tech h2 {
+  font-size: 32px;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.tech h2 {
+  margin-top:2rem;
+}
+
+.company_basic_info h2 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+@media only screen and (max-width: 1024px) {
+  .position {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .resp_and_tech {
+    margin-top: 3rem;
+  }
+}

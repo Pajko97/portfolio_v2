@@ -1,0 +1,113 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  z-index: 3;
+}
+
+.social img {
+  margin-left:11px;
+  margin-right: 11px;
+}
+
+.social img:hover {
+  cursor: pointer;
+}
+
+
+.menu_icon {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  color: white;
+  border: 1px solid white;
+  height: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  z-index: 3;
+  margin-left:4rem;
+}
+
+.menu_icon:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.section_right {
+  display: flex;
+  align-items: center;
+}
+
+.menu_icon_label {
+  font-family: 'Roboto Flex';
+  margin-right: 11px;
+}
+
+.navigation_active {
+  width: 300px;
+  height: 100vh;
+  font-size:48px;
+  font-weight: 300;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  margin-top:-2rem;
+  align-items: flex-end;
+  padding:8rem 5rem;
+  background-color: rgba(0,0,0,.5);
+  right: 0;
+}
+.navigation_closed {
+  width: 500px;
+  height: 100vh;
+  font-size:48px;
+  font-weight: 300;
+  position: fixed;
+  display: none;
+  flex-direction: column;
+  margin-top:-2rem;
+  align-items: flex-end;
+  padding:8rem 5rem;
+  background-color: rgba(0,0,0,.2);
+  right: 0;
+}
+
+.navigation_active a:hover {
+  background-color: red;
+}
+
+.navigation_active a {
+  padding:1rem 1rem;
+  text-align: right;
+  text-decoration: none;
+  font-family: 'Roboto Flex';
+  color:white;
+  transition: width 1s linear;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+  .social {
+    display: none;
+  }
+
+  .navigation_active {
+    padding:10rem 2rem;
+    height: 100%;
+    background-color: black;
+  }
+  .menu_icon {
+    z-index: 0;
+  }
+  .navigation_active a {
+    padding:0 1rem;
+    text-align: right;
+    transition: width 1s linear;
+  }
+}
